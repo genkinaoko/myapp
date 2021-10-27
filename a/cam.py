@@ -10,6 +10,7 @@ while capture.isOpened():
      
     # Get hand data from the rectangle sub window    
     cv2.rectangle(frame,(100,100),(300,300),(0,255,0),0) 
+    
     crop_image = frame[100:300, 100:300] 
      
     # Apply Gaussian blur 
